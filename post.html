@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Answer Room</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Titillium+Web:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav class="navigation hide" id="navigation">
+          <ul class="nav-list">
+            <span class="close-icon" onclick="showIconBar()"
+              ><i class="fa fa-close"
+                ><img src="https://img.icons8.com/doodle/48/000000/delete-sign.png"/></i
+            ></span>
+
+            <li class="nav-item">
+              <a href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="home.html">Back</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Detail</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"
+          ><i class="fa fa-bars"
+            ><img src="https://img.icons8.com/doodle/48/000000/menu.png"/></i
+        ></a>
+        <div class="brand">AnsRrooM</div>
+      </div>
+      <!-- search Box -->
+      <div class="search-box">
+        <div>
+          <select name="" id="">
+            <option value="everything">Everything</option>
+            <option value="titles">Titles</option>
+            <option value="descriptions">Descriptions</option>
+          </select>
+          <input type="text" name="q" id="" placeholder="Search....." />
+          <button><img src="https://img.icons8.com/doodle/48/000000/search--v1.png"/></button>
+        </div>
+      </div>
+    </header>
+    <div class="container"></div>
+    <footer>
+      <span>&copy; &nbsp;Ritheesh Shetty | All rights Reserved.</span>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
