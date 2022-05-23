@@ -27,7 +27,7 @@
 }
 
 .showcase.active {
-  right: 225px;
+  right: 300px;
 }
 
 .showcase header {
@@ -184,6 +184,10 @@
 @media (max-width: 798px) {
   .showcase .showcase header {
     padding: 40px;
+  }
+
+  .showcase.active {
+    right: 220px;
   }
 
   .text h2 {
