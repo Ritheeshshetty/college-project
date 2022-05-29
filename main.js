@@ -14,4 +14,10 @@ function showIconBar(){
     navigation.classList.add("hide");
 }
 
+// function button-click(){
+//     var
+// }
+var itemInput=document.querySelector('input[type="text"]');
+itemInput.addEventListener('focus',runEvent);
+itemInput.addEventListener('blur',runEvent);
     
