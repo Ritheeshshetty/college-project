@@ -17,7 +17,7 @@ function showIconBar(){
 // function button-click(){
 //     var
 // }
-var itemInput=document.querySelector('input[type="text"]');
-itemInput.addEventListener('focus',runEvent);
-itemInput.addEventListener('blur',runEvent);
+// var itemInput=document.querySelector('input[type="text"]');
+// itemInput.addEventListener('focus',runEvent);
+// itemInput.addEventListener('blur',runEvent);
     
